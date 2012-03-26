@@ -15,7 +15,7 @@ The node will install and use the `tftpd` application to provide files via tftp.
 
 Usage
 =====
-Nodes using the `tftp::server` recipe will provide tftp access to whatever files are in their `[:tftp][:directory]`.
+Nodes using the `tftp::server` recipe will provide tftp access to whatever files are in their `['tftp']['directory']`.
 
 License and Author
 ==================
